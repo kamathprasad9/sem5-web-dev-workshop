@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.wave{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+}
+
+.container{
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template: repeat(2,1fr);
+    grid-gap: 7rem;
+    padding: 0 2rem;
+}
+
+.img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.login-content{
+    margin: auto;
+    width: 30%;
+    height: 80%;
+    border: 0.2rem solid #1660c0;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+.img img{
+    width: 500px;
+}
+
+form{
+    width: 90%;
+    margin:  0 auto;
+}
+
+.login-content img{
+    height: 100px;
+}
+
+.login-content h2{
+    margin: auto;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 2.9rem;
+}
+
+.login-content .input-div{
+    position: relative;
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 25px 0;
+    padding: 5px 0;
+    
+}
+
+.container{
+    display: flex; 
+    flex-direction: row;
+    width: 100%;
+}
+
+#code-image img{
+    width: 100%;
+    display: block;
+}
+
+#code-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+
+.input-div input{
+    width: 70%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #1660c0;
+}
+
+.input-div input:focus{
+    outline: none;  
+}
+
+.input-div h5{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    text-align: start;
+    padding:0 0 0.5rem 0;
+}
+
+.forgot{
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn{
+    width: 30%;
+    background-color: #1660c0;
+    padding:  0.5rem 1rem 0.5rem 1rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.btn:focus{
+    border: none;
+    outline: none;
+}
+
+.btn:hover{
+    color: white;
+}
