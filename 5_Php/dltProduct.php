@@ -36,7 +36,7 @@
     </div>
     <br>
     <div class="form-group mx-3">
-        <a href="./index.php"><button class="btn btn-warning" type="submit">Go to home page</button></a>
+        <a href="./index.html"><button class="btn btn-warning" type="submit">Go to home page</button></a>
     </div>
     </body>
 </html>
